@@ -1,7 +1,7 @@
 services:
    build: .
-sqlprojectcomposer:   
-   image: sqlprojectcomposer
+sqlprojectcomposer:1.0 
+   image: sqlproject
    environment:
        MYSQL_ROOT_PASSWORD: 123456
        MYSQL_DATABASE: Datos
