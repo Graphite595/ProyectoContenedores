@@ -1,3 +1,4 @@
+build: .
 sqlprojectcomposer:
    image: sqlproject:1.0
    environment:
