@@ -2,10 +2,10 @@ version: "3.3"
 services:
   web:
     build: .
+    ports:
+      - "3316:3306"
 sqlprojectcomposer:
    image: sqlproject:1.0
    environment:
       MYSQL_ROOT_PASSWORD: 123456
       MYSQL_DATABASE: Datos
-   ports:
-      - "3316:3306"
