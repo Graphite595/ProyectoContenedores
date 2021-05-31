@@ -1,3 +1,7 @@
+version: "3.3"
+services:
+  web:
+    build: .
 sqlprojectcomposer:
    image: sqlproject:1.0
    environment:
